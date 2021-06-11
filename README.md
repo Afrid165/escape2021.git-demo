@@ -5,5 +5,5 @@ Usage:
 
 from fibonachhi import fibonachhi
 
-print(fibonachhi(10))
+print(fibonachhi(20))
 ```
