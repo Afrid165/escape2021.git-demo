@@ -5,5 +5,7 @@ Usage:
 
 from fibonachhi import fibonachhi
 
-print(fibonachhi(20))
+for n in range(20):
+ print fibonachhi(n)
+
 ```
