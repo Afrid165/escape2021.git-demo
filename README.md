@@ -5,5 +5,8 @@ Usage:
 
 from fibonachhi import fibonachhi
 
+for n in range(20):
+ print fibonachhi(n)
+
 print(fibonachhi(10))
 ```
