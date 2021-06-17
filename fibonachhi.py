@@ -1,6 +1,7 @@
 from functools import cache
 @cache
 
+import numpy
 
 def fibonachhi(n):
  if n == 0:
@@ -8,6 +9,10 @@ def fibonachhi(n):
  if n == 1:
    return 1
  return fibonachhi(n-1) + fibonachhi(n-2)
+
+def fib_gen(n):
+ for i in range(n):
+  yield fibonachhi(i)
 
 if __name__ == '__main__':
  print(fibonachhi(30))
