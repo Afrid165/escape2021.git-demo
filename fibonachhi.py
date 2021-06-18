@@ -4,6 +4,10 @@ from functools import cache
 import numpy
 
 def fibonachhi(n):
+`````
+Function to calculate fibonachhi series through recursion.
+
+````
  if n == 0:
    return 0
  if n == 1:
