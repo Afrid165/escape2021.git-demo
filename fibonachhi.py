@@ -19,4 +19,5 @@ def fib_gen(n):
   yield fibonachhi(i)
 
 if __name__ == '__main__':
- print(fibonachhi(30))
+ for n in fib_gen(20):
+  print n
